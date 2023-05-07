@@ -1,0 +1,339 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   }
+
+img {
+  width: 100%; 
+}
+
+body {
+  font-family: system-ui, sans-serif;; 
+}
+
+.wrapper{
+	padding: 0 25px;
+}
+.grey{
+	background: #f8f8f8 ;
+}
+.sidebar{
+	background: #fbfaf8 ;
+}
+
+.main-nav{
+	display: flex;
+	list-style: none;
+	text-align: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+.nav-item{
+	padding:1% 2% 0 6%;
+	z-index: 99;
+}
+.img-backgraund{
+	width: 80%;
+    position: relative;
+    bottom: 34px;
+}
+
+.main-content p{
+	    padding-bottom: 3%;
+}
+span{
+	color: #e8b857;
+}
+.link{
+	padding: 1% 5%;
+    border-left: 1px solid #65aa44;
+    border-right: 1px solid #65aa44;
+    display: inline;
+    font-size: 55%;
+}
+section{
+	padding: 3% 4%;
+}
+
+p{
+	color: #808080;
+	padding: 1% 0;
+}
+.group{
+	display: flex;
+	    justify-content: space-between;
+}
+.group-main{
+	display: flex;
+	justify-content: space-between;
+}
+.group-company{
+	color:#65aa44 ;
+	width: 29%;
+}
+.group-company p{
+	padding: 3% 0 13% 0;
+}
+
+section > h2{
+	border-bottom: 1px solid #65aa44;
+    border-left: 8px solid #65aa44;
+    padding: 0 0 6px 6px;
+}
+.icon-box{
+	display: flex;
+    justify-content: space-between;
+    margin-right: 18%;
+    flex-wrap: wrap;
+}
+.icon{
+	  width: 5%;
+    display: flex;
+    align-items: center;
+}
+.icon-tittle{
+	    margin: 0 45%;
+}
+
+
+tr :first-child{
+	font-weight: bold;
+}
+.offer{
+	padding-left: 2%;
+}
+
+li::marker {
+	color: #e2ba7b; 
+}
+.company-img img{
+		object-fit: cover;
+    height: 100%;
+}
+.group-item{
+	margin-right: 1%;
+}
+.contacts-icon{
+	    width: 26%;
+}
+.contacts-icon img{
+	  padding: 50% 0;
+}
+.contacts{
+	margin-left: 2%;
+}
+.representation{
+	margin-left: 2%;
+}
+.footer-items{
+	display: flex;
+	font-size: 14px;
+}
+.representation{
+	display: flex;
+  flex: 0 0 30%;
+    align-items: baseline;
+}
+.representation-item{
+	    width: 62%;
+	    margin-left: 3%;
+}
+.representation-office{
+	padding: 0px 19% 0 5%;
+    width: 62%;
+}
+.representation-switzerland{
+    width: 88%;
+}
+.footer-item{
+	color: #808080;
+}
+footer{
+	background-color: #f5f5f5;
+}
+
+
+
+
+.main-content {
+    font-size: 30px; 
+    width: 55%;
+    position: relative;
+    bottom: 446px;
+    left: 637px;
+    color: #000;
+}
+.img-backgraund {
+    width: 35%;
+    position: relative;
+    bottom: 34px;
+}
+.sidebar{
+	height: 490px;
+}
+table{
+	  border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th, td{
+	border: 2px solid #e2ba7b;
+    padding: 7px 12px;
+}
+
+
+.company{
+	display: flex;
+  box-shadow: 0px 0px 25px 0 #d3d3d3;
+  width: 32%;
+  margin-top: 3%;
+  align-items: center;
+}
+.company-img{
+	padding: 5%;
+  height: 100%;
+  width: 100%;
+}
+
+
+.representation h2{
+	width: auto;
+}
+
+
+
+
+@media screen and (max-width: 991px){
+   .main-content {
+    font-size: 24px;
+    width: 66%;
+    bottom: 358px;
+    left: 251px;
+}
+.img-backgraund {
+    width: 53%;
+    bottom: 53px;
+}
+.main-nav {
+    margin-left: 17%;
+}
+.sidebar{
+	height: 400px;
+}
+th, td {
+    padding: 6px 7px;
+    }
+    table {
+    font-size: 13px;
+}
+section {
+    padding: 3% 6%;
+}
+p {
+    padding: 3% 0;
+}
+.company {
+    height: 170px;
+     width: 100%;
+}
+.company-img {
+    padding: 2%;
+    width: 35%;
+}
+.group-item {
+    width: 100%;
+}
+.group {
+    display: block;
+}
+.representation h2{
+	padding: 0;
+	margin: 0;
+	width: 40%;
+}
+.representation-switzerland {
+    width: auto;
+}
+.representation-item {
+    margin: 0;
+}
+.representation-office {
+    padding: 0;
+}
+.footer-items {
+    display: block;
+}
+
+.contacts-icon {
+    width: 4%;
+    display: flex;
+}
+.icon {
+    flex: 0 0 33%;
+    padding: 10px 27% 0 0px;
+    width: 34%;
+}
+}
+
+@media screen and (max-width: 768px){
+	.main-content {
+    width: 100%;
+    bottom: 296px;
+    left: 0;
+    text-align: center;
+}
+.group-main{
+	display: block;
+}
+.group-company{
+	width: auto;
+}
+.group-company p{
+	padding: 3% 0;
+}
+.table{
+	display: none;
+}
+.offer {
+    padding-left: 6%;
+}
+.contacts{
+	margin-left: 5%;
+}
+.representation{
+	margin-left: 5%;
+}
+.contacts-icon {
+    width: 7%;
+}
+.contacts-icon img {
+    padding: 0 14%;
+}
+.main-nav {
+    flex-wrap: wrap;
+}
+.main-nav {
+    justify-content: center;
+    margin: 0;
+}
+.nav-item {
+    padding: 1% 6% 0 8%;
+    z-index: 99;
+    font-size: 24px;
+}
+.img-backgraund {
+    bottom: 81px;
+}
+.margin{
+	    margin-left: 40px;
+}
+.icon-box {
+    display: block;
+}
+}
